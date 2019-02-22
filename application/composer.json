@@ -1,0 +1,14 @@
+{
+    "name": "atomicbomber/application",
+    "description": "The warehouse application",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "James Patrick Keegan",
+            "email": "atomicbomber.email@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
