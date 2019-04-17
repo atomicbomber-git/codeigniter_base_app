@@ -7,7 +7,7 @@
     <title> <?= $title ?? "Website Name" ?> </title>
     <link rel="stylesheet" href="<?= base_url("assets/app.css") ?>">
 </head>
-<body>
+<body class="pt-5">
     <?= $this->section('content') ?>
     <?= $this->section('extra-scripts') ?>
 </body>
