@@ -1,12 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title> Home </title>
-</head>
-<body>
-    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet sapiente perspiciatis reiciendis libero dolor, quisquam quae officiis facilis veniam! Laborum harum error nulla ratione animi cum ab voluptatum sunt fugiat.
-</body>
-</html>
+<?php ?>
+
+<?php $this->layout('shared/base', ["title" => "Welcome"]) ?>
+
+<div class="container mt-3">
+    <div class="card">
+        <div class="card-body">
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni, tempora ipsa doloribus incidunt magnam dolor! Ducimus, minima nulla, debitis provident sed iure dignissimos ea, quo magnam quis harum laboriosam similique.
+            </p>
+
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto eaque autem iure exercitationem voluptatem consequatur nisi sit quas unde, enim maiores asperiores? Ea hic earum eligendi fugiat labore, expedita quis.
+            </p>
+        </div>
+    </div>
+</div>
