@@ -1,5 +1,9 @@
 {
   "devDependencies": {
     "parcel-bundler": "^1.12.3"
+  },
+  "scripts": {
+    "serve": "./node_modules/parcel-bundler/bin/cli.js serve ./resources/js/app.js -d assets",
+    "build": "./node_modules/parcel-bundler/bin/cli.js build ./resources/js/app.js -d assets"
   }
 }
