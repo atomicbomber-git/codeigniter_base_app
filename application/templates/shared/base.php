@@ -9,6 +9,8 @@
 </head>
 <body class="pt-5">
     <?= $this->section('content') ?>
+
+    <script src="<?= base_url("assets/app.js") ?>"></script>
     <?= $this->section('extra-scripts') ?>
 </body>
 </html>
