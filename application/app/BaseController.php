@@ -3,10 +3,11 @@
 namespace App;
 
 use App\Traits\HandlesErrors;
+use App\Traits\HasReturnHelpers;
 
 class BaseController extends \CI_Controller
 {
-    use HandlesErrors;
+    use HandlesErrors, HasReturnHelpers;
 
     public function __construct()
     {
@@ -16,6 +17,8 @@ class BaseController extends \CI_Controller
         $this->load->library('session');
         $this->load->helper('url');
         $this->load->database();
+
+        $this->load->library("eloquent");
         $this->load->library("template");
     }
 
